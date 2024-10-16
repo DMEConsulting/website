@@ -263,7 +263,9 @@
     @media (max-width: 768px) {
       flex-direction: column; // Stack image and text vertically
       padding: 1rem;
-  
+      .image-right{
+        flex-direction: column-reverse;
+      }
       .text-content {
         padding: 1rem 0; // Adjust padding for mobile
         text-align: start; // Center text on mobile

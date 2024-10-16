@@ -27,7 +27,7 @@ const Footer = () => {
         <li><a href="#">
         <img src={Facebook} alt="LinkedIn" class="footer-icon"/></a></li>
       </ul>
-      <p>hello@financeconsulting.com</p>
+      <p>hello@dmeconsulting.com</p>
     </div>
   </div>
   <div class="footer-bottom mt-4">

@@ -1,5 +1,4 @@
-import React from 'react'; 
-import { Cd } from 'iconsax-react';
+import React from 'react';  
 
 const WhyUsCard = ({ title, description, bulletPoints, image, isImageRight }) => {
   return (
