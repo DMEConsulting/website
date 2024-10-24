@@ -5,15 +5,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary:'#005f99',
+        primary:'#f4f5dc',
         offwhite:'#f8f9f9',
         white:'#ffffff',
         black: '#000000',
-        paleGreen: '#0097fa', // Customize this as per your design
-        yellowAccent: '#FFC857', // Customize this as per your design
+        secondary: '#003930 ', // Customize this as per your design
+        light: '#6fcc87', // Customize this as per your design
       },
     },
   },
   plugins: [],
 }
+
+
 

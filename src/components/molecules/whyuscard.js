@@ -4,7 +4,7 @@ const WhyUsCard = ({ title, description, bulletPoints, image, isImageRight }) =>
   return (
     <div className={`why-us-card ${isImageRight ? 'image-right' : 'image-left'}`}>
       <div className="text-content">
-        <h3 className="card-title montserrat-header">{title}</h3>
+        <h3 className="card-title mtext-black">{title}</h3>
         <p className="card-description montserrat-paragraph">{description}</p>
         <ul className="card-bullets">
           {bulletPoints.map((point, index) => (
@@ -13,7 +13,7 @@ const WhyUsCard = ({ title, description, bulletPoints, image, isImageRight }) =>
         </ul>
       </div>
       <div className="image-content">
-        <img src={image} alt={title} className="card-image" />
+        <img src={image} alt={title} className="card-image" loading='lazy' />
       </div>
     </div>
   );

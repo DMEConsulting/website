@@ -1,23 +1,17 @@
-import './App.css';
-import './styles/styles.css';
-import HeroSection from './components/HeroSection';
-import ServicesSection from './components/ServicesSection';
-import WhyUsSection from './components/organisms/WhyUs';
-import Footer from './components/Footer';
-import Navbar from './components/organisms/Navbar';
-import Contactus from './components/Contact';
+import './App.css'; 
+import Home from './Pages/Home';
+
 
 function App() {
+
+  
   return (
-    <div className="App">
-      <Navbar/>
-      <HeroSection/>
-      <ServicesSection/>
-      <WhyUsSection/>
-      <Contactus/>
-      <Footer/>
+    <div className="App"> 
+      <Home/>
     </div>
   );
+
+
 }
 
 export default App;
