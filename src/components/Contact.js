@@ -29,9 +29,9 @@ export default function Contactus(){
     return(
         <section id="contactus" className="contact-us-section">
   <div className="contact-prompt">
-    <h2 className="montserrat-heading montserrat-header">Get in Touch</h2>
+    <h2 className="mtext-black">We’d love to hear from you!</h2>
     <p className="montserrat-paragraph montserrat-paragraph">
-      We’d love to hear from you! Whether you have a question or need assistance, feel free to fill out the form, and we’ll get back to you as soon as possible.
+       Whether you have a question or need assistance, feel free to fill out the form, and we’ll get back to you as soon as possible.
     </p>
   </div>
   <div className="contact-form montserrat-paragraph">
